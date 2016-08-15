@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "wannabe": "^0.5.0",
-    "watt": "^0.3.3"
+    "watt": "^3.3.0"
   }
 }
