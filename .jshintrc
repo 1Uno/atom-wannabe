@@ -74,6 +74,7 @@
     "module"      : true,
     "console"     : true,
     "document"    : true,
-    "window"      : true
+    "window"      : true,
+    "atom"        : true
   }
 }
