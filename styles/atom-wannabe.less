@@ -8,8 +8,22 @@
   pointer-events: none;
 }
 
+.atom-wannabe-marker-frame-unconfirm {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
 .atom-wannabe-marker-test {
   pointer-events: none;
 }
 
-.atom-wannabe-marker-gutter {}
+.atom-wannabe-marker-test-unconfirm {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+atom-text-editor::shadow .atom-wannabe-marker-gutter {}
+
+atom-text-editor::shadow .atom-wannabe-marker-gutter-unconfirm {
+  opacity: 0.5;
+}
