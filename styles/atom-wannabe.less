@@ -5,7 +5,12 @@
 @import "ui-variables";
 
 .atom-wannabe-marker-frame {
-  pointer-events: none;
+  &:not(:hover) {
+    z-index: 5;
+  }
+  &:hover {
+    z-index: 6;
+  }
 }
 
 .atom-wannabe-marker-frame-unconfirm {
@@ -17,13 +22,47 @@
   margin-right: 4px;
   padding-right: 5px;
   padding-left: 5px;
-  background-color: #AAA;
   color: black;
   border-radius: 5px;
-  // text-overflow: ellipsis;
-  // overflow: hidden;
-  // max-width: 200px;
-  // white-space: nowrap;
+  &:not(:hover) {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 25em;
+    white-space: nowrap;
+    max-height: 1.4em;
+    line-height: 1.4em;
+    background-color: #AAA;
+  }
+  &:hover {
+    background-color: #CCC;
+    cursor: pointer;
+    overflow: auto;
+    max-width: 50em;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12);
+  }
+  &:not(:hover) .atom-wannabe-marker-frame-summary {
+    display: block;
+  }
+  &:hover .atom-wannabe-marker-frame-summary {
+    display: none;
+  }
+  &:not(:hover) .atom-wannabe-marker-frame-open {
+    display: none;
+  }
+  &:hover .atom-wannabe-marker-frame-open {
+    display: block;
+  }
+}
+
+.atom-wannabe-marker-frame-summary {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.atom-wannabe-marker-frame-open {
+  display: flex;
+  flex-direction: column;
 }
 
 .atom-wannabe-marker-test {
