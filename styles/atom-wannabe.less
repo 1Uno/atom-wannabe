@@ -74,6 +74,49 @@
   opacity: 0.3;
 }
 
+.atom-wannabe-badge () {
+  border-bottom-style: double;
+  font-size: 90%;
+  height: 1.5em;
+  margin-left: 10px;
+  margin-top: -1.6em;
+}
+
+.atom-wannabe-badge-passed {
+  border-bottom: #1e9400;
+  background-color: rgba(30, 148, 0, 0.2);
+  .atom-wannabe-badge;
+}
+
+.atom-wannabe-badge-failed {
+  border-bottom: #af0000;
+  background-color: rgba(175, 0, 0, 0.2);
+  .atom-wannabe-badge;
+}
+
+.atom-wannabe-badge-unknown {
+  border-bottom: #5c5c5c;
+  background-color: rgba(92, 92, 92, 0.2);
+  .atom-wannabe-badge;
+}
+
+.atom-wannabe-dump {
+  margin-left: 30px;
+  margin-top: -1.4em;
+  display: flex;
+  flex-direction: row;
+}
+
+atom-text-editor::shadow .atom-wannabe-check {
+  position: relative;
+  top: 0.2em;
+  width: 1em;
+  max-height: 1em;
+  min-height: 1em;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
 atom-text-editor::shadow .atom-wannabe-marker-gutter {}
 
 atom-text-editor::shadow .atom-wannabe-marker-gutter-unconfirm {
