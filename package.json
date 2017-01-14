@@ -8,7 +8,7 @@
   "repository": "https://github.com/Skywalker13/atom-wannabe",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.8.0 <2.0.0"
+    "atom": ">=1.13.0 <2.0.0"
   },
   "dependencies": {
     "wannabe": "^0.7.0",
