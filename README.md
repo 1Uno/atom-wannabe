@@ -5,7 +5,7 @@ Atom package for [wannabe.js][1]
 
 **EXPERIMENTAL // WORK IN PROGRESS**
 
-_GIF speed of factor 3._
+_GIF speed of factor 3._  
 ![wannabe](./wannabe.gif)
 
 ## Features
