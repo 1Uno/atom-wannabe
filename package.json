@@ -2,7 +2,7 @@
   "name": "atom-wannabe",
   "main": "./lib/atom-wannabe",
   "version": "0.2.0",
-  "description": "Atom package for wannabe.js",
+  "description": "Integrated continuous mocha runner for javascript",
   "keywords": [],
   "activationCommands": {},
   "repository": "https://github.com/Skywalker13/atom-wannabe",
