@@ -6,7 +6,7 @@ Atom package for [wannabe.js][1]
 **EXPERIMENTAL // WORK IN PROGRESS**
 
 _GIF speed of factor 3._  
-![wannabe](wannabe.gif)
+![wannabe](https://raw.githubusercontent.com/Skywalker13/atom-wannabe/0.2-stable/wannabe.gif)
 
 ## Features
 
@@ -26,4 +26,4 @@ Please, read: https://github.com/Skywalker13/wannabe.js#drawbacks
 
 
 [1]: https://github.com/Skywalker13/wannabe.js
-[2]: https://github.com/Skywalker13/atom-wannabe
+[2]: https://github.com/Skywalker13/atom-wannabe#atom-wannabe-package
