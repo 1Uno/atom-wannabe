@@ -1,7 +1,7 @@
 {
   "name": "atom-wannabe",
   "main": "./lib/atom-wannabe",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom plugin for wannabe.js",
   "keywords": [],
   "activationCommands": {},
