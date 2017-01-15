@@ -11,7 +11,7 @@
     "atom": ">=1.13.0 <2.0.0"
   },
   "dependencies": {
-    "wannabe": "^0.7.0",
+    "wannabe": "^0.7.4",
     "watt": "^3.3.0"
   }
 }
