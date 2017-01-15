@@ -1,8 +1,8 @@
 {
   "name": "atom-wannabe",
   "main": "./lib/atom-wannabe",
-  "version": "0.2.0",
-  "description": "Atom plugin for wannabe.js",
+  "version": "0.1.0",
+  "description": "Atom package for wannabe.js",
   "keywords": [],
   "activationCommands": {},
   "repository": "https://github.com/Skywalker13/atom-wannabe",
@@ -11,7 +11,7 @@
     "atom": ">=1.13.0 <2.0.0"
   },
   "dependencies": {
-    "wannabe": "^0.7.4",
+    "wannabe": "^0.7.5",
     "watt": "^3.3.0"
   }
 }
