@@ -13,5 +13,8 @@
   "dependencies": {
     "wannabe": "^0.7.5",
     "watt": "^3.3.0"
+  },
+  "devDependencies": {
+    "xcraft-dev-rules": "^0.1.15"
   }
 }
