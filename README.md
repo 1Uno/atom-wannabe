@@ -10,12 +10,15 @@ _GIF speed of factor 3._
 
 ## Features
 
-It tries to run the test runner (mocha) on the current javascript file. Note
-that all files are considered by wannabe even if it's not a test. This package
+It tries to run the test runner (mocha) on the current javascript file. Only
+javascript files that looks like a test are runned by atom-wannabe. This package
 is **experimental** and some [drawbacks](#drawbacks) exist.
 
 For example, **babel** is not really supported and if it's the case, then it's
 very slow.
+
+Some settings are available with the package but most of time, the default
+values are fine.
 
 ## Drawbacks
 
