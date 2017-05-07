@@ -15,7 +15,7 @@
 
 .atom-wannabe-marker-frame-unconfirm {
   pointer-events: none;
-  opacity: 0.3;
+  opacity: 1.0;
 }
 
 .atom-wannabe-marker-frame-div {
@@ -69,13 +69,29 @@
   visibility: hidden;
 }
 
+.atom-wannabe-badge-envelop {
+  display: flex;
+}
+
+.atom-wannabe-badge-refresh {
+  font-size: 180%;
+  margin-left: 6px;
+  margin-top: -1.6em;
+}
+
 .atom-wannabe-marker-test {
   pointer-events: none;
+  .atom-wannabe-badge-refresh {
+    visibility: hidden;
+  }
 }
 
 .atom-wannabe-marker-test-unconfirm {
   pointer-events: none;
-  opacity: 0.3;
+  opacity: 1.0;
+  .atom-wannabe-badge-refresh {
+    visibility: visible;
+  }
 }
 
 .atom-wannabe-marker-test-hide {
@@ -128,5 +144,5 @@ atom-text-editor.editor .atom-wannabe-check {
 atom-text-editor.editor .atom-wannabe-marker-gutter {}
 
 atom-text-editor.editor .atom-wannabe-marker-gutter-unconfirm {
-  opacity: 0.3;
+  opacity: 1.0;
 }
